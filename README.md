@@ -1,29 +1,21 @@
 # Downscaled CMIP3 and CMIP5 Climate and Hydrology Projections Pre-processing
 Conversion of targeted netcdf files into spreadsheet tables with the use of the arcpy library for python 2 (arcmap) and 3 (arcgis pro).
 
-## ArcGIS 
-+ Desktop arcgis 10.5 or above if using py2 scripts.
-+ Desktop arcGIS Pro if using py3 scripts.
-
 ## Execution Environment
-+ For arcgis desktop you will need python 2.7 which can be setup with anaconda for multiple environments or native 2.7.  
-+ For gispro use python 3.6 or above which can be native environment or via anaconda.  
++ For Arcmap desktop 10 or above use python 2.7 which can be setup with anaconda for multiple environments or native 2.7.  
++ For ArcGID PRO use python 3.6 or above which can be native environment or via anaconda.  
 + Anaconda needs to be the 32 bit version if using python 2 as arcgis desktop is 32 bits.  
 
 To setup anaconda environment with arcmap look at the instructions on:
 
 https://sites.temple.edu/geodev/setting-up-a-python-development-environment-with-anaconda-and-arcpy/
 
-
 Notes: 
-+ Download Anaconda 32 bit is using arcmap.  
-+ Using arcpy10-7 instead of 10-5
-+ Could not setup spyder IDE, but was able to setup the python 2.7 environment with arcpy correctly.
++ Download Anaconda 32 bit if using arcmap.  
 + The environment created can be used on visual studio code using the python interpreter addon and linking it
   to the python.exe that is inside the anaconda environment.
 
 To run the python scripts from anaconda:
-
 1. Open de Anaconda prompt.
 2. Activate the environment
     > activate arcpy10-7
@@ -59,20 +51,20 @@ TODO: Robyn explain which datasets you downloaded for your inputs.
 
 # Questions:
 
-Set environment setting to match pixel size of the raster?
+**Set environment setting to match pixel size of the raster?**
 Setting the environment setting to match the pixel size of the raster being analyzed, makes the tool perform as expected, and as it should be as default, obviously, and therefore matches the output results i get when using zonal histogram on the same exact layers.
 
-What coordinate system is associated with the downscaled projections?
+**What coordinate system is associated with the downscaled projections?**
 The downscaled projections are on the NLDAS 1/8th degree grid (datum WGS84).
 
-What coordinate system does the raster use?
+**What coordinate system does the raster use?**
 WGS_1984_UTM_Zone_13N
 Geographic Coordinate System:	GCS_WGS_1984
 Datum: 	D_WGS_1984
 
 # Attributions
 
-Original Code: Gerrit VanderWaal (763-647-0338, gerrit.vwaal@gmail.com)
+Original Code: Gerrit VanderWaal (763-647-0338, gerrit.vwaal@gmail.com)   
 Project Adaptations:
  + Robyn Holmes
  + Luis Garnica
