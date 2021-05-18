@@ -49,7 +49,7 @@ TODO: Robyn explain which datasets you downloaded for your inputs.
 + Downscaled CIMP3 and CMPIP5 Climate and Hydrology Projections, https://gdo-dcp.ucllnl.org/downscaled_cmip_projections/#Projections:%20Subset%20Request
 + Parallel processing on python, https://www.pythonpool.com/python-map-function/
 
-# Questions:
+## Questions:
 
 **Set environment setting to match pixel size of the raster?**
 Setting the environment setting to match the pixel size of the raster being analyzed, makes the tool perform as expected, and as it should be as default, obviously, and therefore matches the output results i get when using zonal histogram on the same exact layers.
@@ -62,7 +62,7 @@ WGS_1984_UTM_Zone_13N
 Geographic Coordinate System:	GCS_WGS_1984
 Datum: 	D_WGS_1984
 
-# Attributions
+## Attributions
 
 Original Code: Gerrit VanderWaal (763-647-0338, gerrit.vwaal@gmail.com)   
 Project Adaptations:
@@ -70,7 +70,7 @@ Project Adaptations:
  + Luis Garnica
  + Nolan Townsend
 
-# License
+## License
 
 GNU General Public License
 
