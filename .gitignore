@@ -1,0 +1,6 @@
+inputs/*
+outputs/*
+scenarios/*
+.vscode/*
+extractor-py2-parallel.pyc
+extractor-py2-original.pyc
