@@ -64,8 +64,9 @@ Datum: 	D_WGS_1984
 
 ## Attributions
 
-Original Code: Gerrit VanderWaal (763-647-0338, gerrit.vwaal@gmail.com)   
-Project Adaptations:
+Base Code:    
+ + Gerrit VanderWaal (gerrit.vwaal@gmail.com)   
+Project Adaptations:   
  + Robyn Holmes
  + Luis Garnica
  + Nolan Townsend
