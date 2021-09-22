@@ -63,17 +63,21 @@ Geographic Coordinate System:	GCS_WGS_1984
 Datum: 	D_WGS_1984
 
 ## Attributions
+ + Base Code - Gerrit VanderWaal (gerrit.vwaal@gmail.com)   
 
-Base Code:    
- + Gerrit VanderWaal (gerrit.vwaal@gmail.com)   
-Project Adaptations:   
+## Conributors  
  + Robyn Holmes
  + Luis Garnica
  + Nolan Townsend
 
-## License
+## Acknowledgements
+This material is based upon work supported by The United States Department of Agriculture under Grant No. 2015-68007-23130.
 
-GNU General Public License
+## License
+GNU General Public License 3.0
+
+## Copyright
+Copyright © 2021 Michigan Technological University (USDA Water Sustainability Project)
 
 
 
