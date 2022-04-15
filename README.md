@@ -65,7 +65,7 @@ Datum: 	D_WGS_1984
 ## Attributions
  + Base Code - Gerrit VanderWaal (gerrit.vwaal@gmail.com)   
 
-## Conributors  
+## Contributors  
  + Robyn Holmes
  + Luis Garnica
  + Nolan Townsend
