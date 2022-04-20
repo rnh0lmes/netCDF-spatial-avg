@@ -24,7 +24,6 @@ To run the python scripts from anaconda:
 
 ## Input Harvesting
 Refer to the docs folder for instructions on downloading netcdf data.
-TODO: Robyn explain which datasets you downloaded for your inputs.
 
 ## Run Instructions
 
