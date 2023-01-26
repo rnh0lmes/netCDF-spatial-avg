@@ -43,10 +43,14 @@ Refer to the docs folder for instructions on downloading netcdf data.
 + The main process looks up the tables on the output folder, creates the final summary table and appends the process tables.
 + Final runtime displayed add the end in seconds.
 
-## References
+## Citations
 
 + Downscaled CIMP3 and CMPIP5 Climate and Hydrology Projections, https://gdo-dcp.ucllnl.org/downscaled_cmip_projections/#Projections:%20Subset%20Request
 + Parallel processing on python, https://www.pythonpool.com/python-map-function/
++ Reclamation, 2011. 'West-Wide Climate Risk Assessments: Bias-Corrected and Spatially 
+Downscaled Surface Water Projections', Technical Memorandum No. 86-68210-2011-01, prepared by the U.S. Department of the Interior, Bureau of Reclamation, Technical Services Center, Denver, Colorado. 138pp.   
++ Reclamation, 2014. 'Downscaled CMIP3 and CMIP5 Climate and Hydrology Projections: 
+Release of Hydrology Projections, Comparison with preceding Information, and Summary of User Needs', prepared by the U.S. Department of the Interior, Bureau of Reclamation, Technical Services Center, Denver, Colorado. 110 pp.   
 
 ## Questions:
 
