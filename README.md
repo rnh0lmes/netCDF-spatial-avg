@@ -65,18 +65,18 @@ Datum: 	D_WGS_1984
  + Base Code - Gerrit VanderWaal (gerrit.vwaal@gmail.com)   
 
 ## Contributors  
- + Robyn Holmes
- + Luis Garnica
- + Nolan Townsend
+ + Robyn Holmes  
+ + Luis Garnica  
+ + Nolan Townsend  
 
 ## Acknowledgements
 This material is based upon work supported by The United States Department of Agriculture under Grant No. 2015-68007-23130.
 
 ## License
-GNU General Public License 3.0
+This software code is licensed under the [GNU GENERAL PUBLIC LICENSE v3.0](./LICENSE) and uses third party libraries that are distributed under their own terms (see [LICENSE-3RD-PARTY.md](./LICENSE-3RD-PARTY.md).  The software used proprietary ESRI ArcMap and ArcGIS Pro libraries licensed with the University of Texas at El Paso and Michigan Technological University. 
 
 ## Copyright
-Copyright © 2021 Michigan Technological University (USDA Water Sustainability Project)
+Copyright © 2021-2023 Michigan Technological University (USDA Water Sustainability Project)   
 
 
 
