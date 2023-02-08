@@ -73,6 +73,13 @@ Datum: 	D_WGS_1984
  + Luis Garnica  
  + Nolan Townsend  
 
+## How to cite
+If you create products such as publications using this model, it would be great if you add the following citation:   
+
+Holmes, R. N., Mayer, A., Gutzler, D. S., & Chavira, L. G. (2022).    
+Assessing the Effects of Climate Change on Middle Rio Grande Surface Water Supplies Using a Simple Water Balance Reservoir Model.    
+Earth Interactions, 1–34. https://doi.org/10.1175/EI-D-21-0025.1   
+
 ## Acknowledgements
 This material is based upon work supported by The United States Department of Agriculture under Grant No. 2015-68007-23130.
 
