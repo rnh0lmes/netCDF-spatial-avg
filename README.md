@@ -69,9 +69,9 @@ Datum: 	D_WGS_1984
  + Base Code - Gerrit VanderWaal (gerrit.vwaal@gmail.com)   
 
 ## Contributors  
- + Robyn Holmes  
- + Luis Garnica  
- + Nolan Townsend  
+Robyn Holmes   
+Luis Garnica   
+Nolan Townsend   
 
 ## How to cite
 If you create products such as publications using this model, it would be great if you add the following citation:   
