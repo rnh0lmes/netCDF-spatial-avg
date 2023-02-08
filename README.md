@@ -33,26 +33,7 @@ Refer to the docs folder for instructions on downloading netcdf data.
 4. Modify the path strings that are hardcoded in the python scripts... below all #paths comments. There is one on the main function and one on the cdf processing function.
 5. Modify the level variable to the dimension required.
 
-## Change Log
-
-+ Separation of summary table field creation into its own function.
-+ Each netcdf file is processed in different cores and independent from each other.
-+ Each process created its own local summary table.
-+ OutputTable is now managed directly in memory with no storage i/o operations.
-+ The main process waits for the other to finish.
-+ The main process looks up the tables on the output folder, creates the final summary table and appends the process tables.
-+ Final runtime displayed add the end in seconds.
-
-## Citations
-
-+ Downscaled CIMP3 and CMPIP5 Climate and Hydrology Projections, https://gdo-dcp.ucllnl.org/downscaled_cmip_projections/#Projections:%20Subset%20Request
-+ Parallel processing on python, https://www.pythonpool.com/python-map-function/
-+ Reclamation, 2011. 'West-Wide Climate Risk Assessments: Bias-Corrected and Spatially 
-Downscaled Surface Water Projections', Technical Memorandum No. 86-68210-2011-01, prepared by the U.S. Department of the Interior, Bureau of Reclamation, Technical Services Center, Denver, Colorado. 138pp.   
-+ Reclamation, 2014. 'Downscaled CMIP3 and CMIP5 Climate and Hydrology Projections: 
-Release of Hydrology Projections, Comparison with preceding Information, and Summary of User Needs', prepared by the U.S. Department of the Interior, Bureau of Reclamation, Technical Services Center, Denver, Colorado. 110 pp.   
-
-## Questions:
+## Q&A:
 
 **Set environment setting to match pixel size of the raster?**
 Setting the environment setting to match the pixel size of the raster being analyzed, makes the tool perform as expected, and as it should be as default, obviously, and therefore matches the output results i get when using zonal histogram on the same exact layers.
@@ -66,7 +47,7 @@ Geographic Coordinate System:	GCS_WGS_1984
 Datum: 	D_WGS_1984
 
 ## Attributions
- + Base Code - Gerrit VanderWaal (gerrit.vwaal@gmail.com)   
+Base Code - Gerrit VanderWaal (gerrit.vwaal@gmail.com)   
 
 ## Contributors  
 Robyn Holmes   
@@ -82,6 +63,15 @@ Earth Interactions, 1–34. https://doi.org/10.1175/EI-D-21-0025.1
 
 ## Acknowledgements
 This material is based upon work supported by The United States Department of Agriculture under Grant No. 2015-68007-23130.
+
+
+## Citations
++ Downscaled CIMP3 and CMPIP5 Climate and Hydrology Projections, https://gdo-dcp.ucllnl.org/downscaled_cmip_projections/#Projections:%20Subset%20Request
++ Parallel processing on python, https://www.pythonpool.com/python-map-function/
++ Reclamation, 2011. 'West-Wide Climate Risk Assessments: Bias-Corrected and Spatially 
+Downscaled Surface Water Projections', Technical Memorandum No. 86-68210-2011-01, prepared by the U.S. Department of the Interior, Bureau of Reclamation, Technical Services Center, Denver, Colorado. 138pp.   
++ Reclamation, 2014. 'Downscaled CMIP3 and CMIP5 Climate and Hydrology Projections: 
+Release of Hydrology Projections, Comparison with preceding Information, and Summary of User Needs', prepared by the U.S. Department of the Interior, Bureau of Reclamation, Technical Services Center, Denver, Colorado. 110 pp.   
 
 ## License
 This software code is licensed under the [GNU GENERAL PUBLIC LICENSE v3.0](./LICENSE) and uses third party libraries that are distributed under their own terms (see [LICENSE-3RD-PARTY.md](./LICENSE-3RD-PARTY.md).  The software used proprietary ESRI ArcMap and ArcGIS Pro libraries licensed with the University of Texas at El Paso and Michigan Technological University. 
